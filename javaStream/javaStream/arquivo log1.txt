@@ -1,0 +1,6 @@
+172.16.0.1 | 2026-03-17 08:00 | GET | /api/v1/payments/history | 200 | 500ms
+172.16.0.2 | 2026-03-17 08:01 | POST | /api/v1/payments | 201 | 400ms
+172.16.0.3 | 2026-03-17 08:02 | GET | /api/v1/payments | 403 | 100ms
+172.16.0.4 | 2026-03-17 08:03 | POST | /api/v1/payments-webhook | 200 | 50ms
+172.16.0.5 | 2026-03-17 08:04 | PUT | /api/v1/payments | 504 | 1500ms
+172.16.0.6 | 2026-03-17 08:05 | GET | /api/v1/admin | 401 | 30ms
